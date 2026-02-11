@@ -3,6 +3,9 @@ import { RankingCard } from "../Components/RankingCard";
 import { SwipeContainer } from "../Components/SwipeContainer";
 import { TotalGeralCard } from "../Components/TotalGeralCard";
 import { calcularValorTotal } from "../Utils/valorPorGolUtil";
+import { ultimoJogo } from "../Data/jogosData";
+import { PlacarCard } from "../Components/PlacarCard";
+
 
 export function Home() {
   const totalGeral = jogadores.reduce((acc, jogador) => {
@@ -21,6 +24,7 @@ export function Home() {
       </h1>
 
       <TotalGeralCard total={totalGeral} />
+      <PlacarCard jogo={ultimoJogo} />
 
       <div className="mt-10">
         <SwipeContainer>
