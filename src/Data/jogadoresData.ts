@@ -5,6 +5,7 @@ export interface Jogador {
   golsDemoMes: number;
   golsNormalTotal: number;
   golsDemoTotal: number;
+  assistenciasMes: number;
 }
 
 export const jogadores: Jogador[] = [
@@ -15,6 +16,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 4,
     golsNormalTotal: 10,
     golsDemoTotal: 8,
+    assistenciasMes: 3,
   },
   {
     id: 2,
@@ -23,6 +25,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 3,
     golsNormalTotal: 8,
     golsDemoTotal: 6,
+    assistenciasMes: 2,
   },
   {
     id: 3,
@@ -31,6 +34,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 2,
     golsNormalTotal: 6,
     golsDemoTotal: 4,
+    assistenciasMes: 1,
   },
   {
     id: 4,
@@ -39,6 +43,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 1,
     golsNormalTotal: 4,
     golsDemoTotal: 2,
+    assistenciasMes: 0,
   },
   {
     id: 5,
@@ -47,6 +52,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 2,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 6,
@@ -55,6 +61,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 7,
@@ -63,6 +70,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 8,
@@ -71,6 +79,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 9,
@@ -79,6 +88,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 10,
@@ -87,6 +97,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 11,
@@ -95,6 +106,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 12,
@@ -103,6 +115,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 13,
@@ -111,6 +124,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 14,
@@ -119,6 +133,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 15,
@@ -127,6 +142,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 16,
@@ -135,6 +151,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 17,
@@ -143,6 +160,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 18,
@@ -151,6 +169,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 19,
@@ -159,6 +178,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 20,
@@ -167,6 +187,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 21,
@@ -175,6 +196,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 22,
@@ -183,6 +205,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 23,
@@ -191,6 +214,7 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
   {
     id: 24,
@@ -199,5 +223,6 @@ export const jogadores: Jogador[] = [
     golsDemoMes: 0,
     golsNormalTotal: 0,
     golsDemoTotal: 0,
+    assistenciasMes: 0,
   },
 ];

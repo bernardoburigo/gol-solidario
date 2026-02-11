@@ -6,6 +6,7 @@ import { calcularValorTotal } from "../Utils/valorPorGolUtil";
 import { ultimoJogo } from "../Data/jogosData";
 import { PlacarCard } from "../Components/PlacarCard";
 import FotosSection from "../Components/FotosSection";
+import TopAssistenteCard from "../Components/TopAssistenteCard";
 
 
 
@@ -43,6 +44,8 @@ export function Home() {
             tipo="total"
           />
         </SwipeContainer>
+
+        <TopAssistenteCard />
       </div>
     </div>
   );
