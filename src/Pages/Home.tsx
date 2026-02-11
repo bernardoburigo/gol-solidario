@@ -17,7 +17,7 @@ export function Home() {
   return (
     <div className="min-h-screen bg-yellow-400 p-6">
       <h1 className="text-4xl font-bold text-center text-green-900 mb-8">
-        ⚽ Gol Solidário
+        ⚽ Gol Solidário ⚽
       </h1>
 
       <TotalGeralCard total={totalGeral} />
@@ -25,13 +25,13 @@ export function Home() {
       <div className="mt-10">
         <SwipeContainer>
           <RankingCard
-            titulo="Artilheiros do Mês"
+            titulo="Artilheiros do Mês 🏅"
             jogadores={jogadores}
             tipo="mes"
           />
 
           <RankingCard
-            titulo="Artilheiros Geral"
+            titulo="Artilheiros Geral 🏆"
             jogadores={jogadores}
             tipo="total"
           />

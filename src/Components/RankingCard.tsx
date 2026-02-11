@@ -23,22 +23,16 @@ export function RankingCard({ titulo, jogadores, tipo }: Props) {
   });
 
   return (
-    <div className="bg-(--color-bg-card) rounded-2xl shadow-lg p-6 min-w-full md:min-w-0">
-      <h2 className="text-xl font-bold text-(--color-primary-green) mb-4">
-        {titulo}
-      </h2>
+    <div className="bg-white rounded-2xl shadow-lg p-6 min-w-full md:min-w-0">
+      <h2 className="text-xl font-bold text-green-900 mb-4"> {titulo}</h2>
 
       <div className="space-y-3">
         {ranking.map((jogador, index) => {
           const golsNormal =
-            tipo === "mes"
-              ? jogador.golsNormalMes
-              : jogador.golsNormalTotal;
+            tipo === "mes" ? jogador.golsNormalMes : jogador.golsNormalTotal;
 
           const golsDemo =
-            tipo === "mes"
-              ? jogador.golsDemoMes
-              : jogador.golsDemoTotal;
+            tipo === "mes" ? jogador.golsDemoMes : jogador.golsDemoTotal;
 
           const total = calcularValorTotal(golsNormal, golsDemo);
 
@@ -56,7 +50,7 @@ export function RankingCard({ titulo, jogadores, tipo }: Props) {
                 </p>
               </div>
 
-              <span className="font-bold text-(--color-primary-yellow-dark)">
+              <span className="font-bold text-yellow-600">
                 R$ {total.toFixed(2)}
               </span>
             </div>
