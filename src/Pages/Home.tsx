@@ -32,7 +32,7 @@ export function Home() {
       <div className="mt-10">
         <SwipeContainer>
           <RankingCard
-            titulo="Artilheiros do Mês 🏅"
+            titulo="Artilheiros do Mês 📆"
             jogadores={jogadores}
             tipo="mes"
           />

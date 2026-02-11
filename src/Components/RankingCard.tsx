@@ -8,19 +8,21 @@ interface Props {
 }
 
 export function RankingCard({ titulo, jogadores, tipo }: Props) {
-  const ranking = [...jogadores].sort((a, b) => {
-    const totalA =
-      tipo === "mes"
-        ? calcularValorTotal(a.golsNormalMes, a.golsDemoMes)
-        : calcularValorTotal(a.golsNormalTotal, a.golsDemoTotal);
+  const ranking = [...jogadores]
+    .sort((a, b) => {
+      const totalA =
+        tipo === "mes"
+          ? calcularValorTotal(a.golsNormalMes, a.golsDemoMes)
+          : calcularValorTotal(a.golsNormalTotal, a.golsDemoTotal);
 
-    const totalB =
-      tipo === "mes"
-        ? calcularValorTotal(b.golsNormalMes, b.golsDemoMes)
-        : calcularValorTotal(b.golsNormalTotal, b.golsDemoTotal);
+      const totalB =
+        tipo === "mes"
+          ? calcularValorTotal(b.golsNormalMes, b.golsDemoMes)
+          : calcularValorTotal(b.golsNormalTotal, b.golsDemoTotal);
 
-    return totalB - totalA;
-  });
+      return totalB - totalA;
+    })
+    .slice(0, 5);
 
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 min-w-full md:min-w-0">
@@ -43,8 +45,12 @@ export function RankingCard({ titulo, jogadores, tipo }: Props) {
             >
               <div>
                 <p className="font-semibold text-(--color-text-primary)">
-                  {index + 1}. {jogador.nome}
+                  {jogador.nome}
+                  {index === 0 && "🥇 "}
+                  {index === 1 && "🥈 "}
+                  {index === 2 && "🥉 "}
                 </p>
+
                 <p className="text-sm text-(--color-text-secondary)">
                   ⚽ {golsNormal} | 🎯 {golsDemo}
                 </p>

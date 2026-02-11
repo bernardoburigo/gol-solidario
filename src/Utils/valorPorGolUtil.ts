@@ -1,5 +1,4 @@
-const VALOR_GOL_NORMAL = 2.5;
-const VALOR_GOL_DEMO = 7.0;
+import { VALOR_GOL_DEMO, VALOR_GOL_NORMAL } from "../Data/valorPorGolData";
 
 export function calcularValorTotal(
   golsNormal: number,
