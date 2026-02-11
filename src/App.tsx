@@ -31,7 +31,7 @@ export default function App() {
               </a>
 
               <a
-                href="https://instagram.com/seuusuario"
+                href="https://instagram.com/bernardoburigo"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-yellow-400 hover:scale-110 transition-all duration-200"
