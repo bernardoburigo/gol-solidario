@@ -33,7 +33,7 @@ export default function FotoTimeCard({ isDesktop }: Props) {
       </div>
 
       <p className="text-center text-xs md:text-sm mt-2 font-semibold text-green-800">
-        Jogadores do Gol Solidário reunidos após a partida
+        Jogadores do time vencedor após a partida
       </p>
     </div>
   );
