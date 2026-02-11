@@ -5,6 +5,8 @@ import { TotalGeralCard } from "../Components/TotalGeralCard";
 import { calcularValorTotal } from "../Utils/valorPorGolUtil";
 import { ultimoJogo } from "../Data/jogosData";
 import { PlacarCard } from "../Components/PlacarCard";
+import FotosSection from "../Components/FotosSection";
+
 
 
 export function Home() {
@@ -25,6 +27,7 @@ export function Home() {
 
       <TotalGeralCard total={totalGeral} />
       <PlacarCard jogo={ultimoJogo} />
+      <FotosSection />
 
       <div className="mt-10">
         <SwipeContainer>
