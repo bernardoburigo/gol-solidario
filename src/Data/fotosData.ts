@@ -10,8 +10,8 @@ export interface FotosData {
 
 export const fotosData: FotosData = {
   fotoTime: {
-    url: "",
-    alt: "",
+    url: "/sem-foto-time.jpg",
+    alt: "Sem foto de time essa semana!",
   },
   fotoArtilheiro: {
     url: "/artilheiro-19-02.jpg",
