@@ -5,6 +5,7 @@ interface Props {
 }
 
 export default function FotoArtilheiroCard({ isDesktop }: Props) {
+  if (!fotosData.fotoArtilheiro?.url) return null;
   return (
     <div
       className={`

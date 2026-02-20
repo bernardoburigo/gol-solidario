@@ -5,6 +5,7 @@ interface Props {
 }
 
 export default function FotoTimeCard({ isDesktop }: Props) {
+  if (!fotosData.fotoTime?.url) return null;
   return (
     <div
       className={`
@@ -26,8 +27,8 @@ export default function FotoTimeCard({ isDesktop }: Props) {
         "
       >
         <img
-          src={fotosData.fotoJogo.url}
-          alt={fotosData.fotoJogo.alt}
+          src={fotosData.fotoTime.url}
+          alt={fotosData.fotoTime.alt}
           className="absolute inset-0 w-full h-full object-cover"
         />
       </div>

@@ -44,7 +44,7 @@ export function RankingCard({ titulo, jogadores, tipo }: Props) {
               className="flex justify-between items-center bg-(--color-bg-main) rounded-xl p-3"
             >
               <div>
-                <p className="font-semibold text-(--color-text-primary)">
+                <p className="font-semibold text-sm md:text-base text-(--color-text-primary)">
                   {jogador.nome}
                   {index === 0 && "🥇 "}
                   {index === 1 && "🥈 "}
@@ -56,7 +56,7 @@ export function RankingCard({ titulo, jogadores, tipo }: Props) {
                 </p>
               </div>
 
-              <span className="font-bold text-yellow-600">
+              <span className="font-bold text-sm md:text-base text-yellow-600 whitespace-nowrap">
                 R$ {total.toFixed(2)}
               </span>
             </div>

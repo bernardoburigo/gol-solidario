@@ -6,7 +6,7 @@ export default function TopAssistenteCard() {
 
   return (
     <div className="bg-white rounded-2xl shadow-lg p-3 mt-6 max-w-md mx-auto">
-      <h2 className="text-xl font-bold text-green-900 mb-2 text-center">
+      <h2 className="text-sm md:text-xl font-bold text-green-900 mb-2 text-center">
         🥇 Top Assistente do Mês 🥇
       </h2>
 

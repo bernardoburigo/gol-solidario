@@ -38,7 +38,7 @@ export function PlacarCard({ jogo }: Props) {
             <span className="flex-1 text-right">{jogo.timeA}</span>
 
             <span className="text-yellow-400 px-2 md:px-4 whitespace-nowrap">
-            {jogo.golsTimeA}x{jogo.golsTimeB}
+            {jogo.golsTimeBranco}x{jogo.golsTimePreto}
             </span>
 
             <span className="flex-1 text-left">{jogo.timeB}</span>
