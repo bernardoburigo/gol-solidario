@@ -4,17 +4,17 @@ export interface FotoInfo {
 }
 
 export interface FotosData {
-  fotoJogo: FotoInfo
+  fotoTime: FotoInfo
   fotoArtilheiro: FotoInfo
 }
 
 export const fotosData: FotosData = {
-  fotoJogo: {
-    url: "/time-10-02.jpg",
-    alt: "Jogadores do Gol Solidário reunidos após a partida",
+  fotoTime: {
+    url: "",
+    alt: "",
   },
   fotoArtilheiro: {
-    url: "/artilheiro-10-02.jpg",
+    url: "/artilheiro-19-02.jpg",
     alt: "Artilheiro da partida",
   },
 }
