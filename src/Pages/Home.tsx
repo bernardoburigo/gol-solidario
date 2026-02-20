@@ -22,7 +22,7 @@ export function Home() {
 
   return (
     <div className="min-h-screen bg-yellow-400 p-6">
-      <h1 className="text-2xl md:text-4xl font-bold text-center text-green-900 mb-8">
+      <h1 className="text-2xl md:text-4xl font-bold text-center text-green-800 mb-8">
         ⚽ Gol Solidário ⚽
       </h1>
 

@@ -26,7 +26,7 @@ export function RankingCard({ titulo, jogadores, tipo }: Props) {
 
   return (
     <div className="bg-white rounded-2xl shadow-lg p-6 min-w-full md:min-w-0">
-      <h2 className="text-xl font-bold text-green-900 mb-4"> {titulo}</h2>
+      <h2 className="text-xl font-bold text-green-800 mb-4"> {titulo}</h2>
 
       <div className="space-y-3">
         {ranking.map((jogador, index) => {

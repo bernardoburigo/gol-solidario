@@ -55,7 +55,7 @@ export function SwipeContainer({ children }: Props) {
             key={index}
             className={`h-2 w-2 rounded-full transition-all duration-300 ${
               index === activeIndex
-                ? "bg-green-900 w-4"
+                ? "bg-green-800 w-4"
                 : "bg-green-400"
             }`}
           />

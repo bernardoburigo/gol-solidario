@@ -10,7 +10,7 @@ export default function App() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-green-900 text-yellow-300 py-6">
+      <footer className="bg-green-800 text-yellow-300 py-6">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <strong className="text-lg">⚽ Gol Solidário ⚽</strong>
 
