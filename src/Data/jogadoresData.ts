@@ -102,9 +102,9 @@ export const jogadores: Jogador[] = [
   {
     id: 11,
     nome: "Antônio Farias",
-    golsNormalMes: 0,
+    golsNormalMes: 2,
     golsDemoMes: 0,
-    golsNormalTotal: 0,
+    golsNormalTotal: 2,
     golsDemoTotal: 0,
     assistenciasMes: 0,
   },
